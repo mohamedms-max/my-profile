@@ -1,1 +1,2 @@
-https://github.com/mohamedms-max/my-profile.
+ https://mohamedms-max.github.io/my-profile/
+ 
