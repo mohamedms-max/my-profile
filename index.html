@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Mahmoud Sayed – Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Meta description لتحسين الظهور في البحث -->
+    <meta name="description"
+        content="Portfolio of Mahmoud Sayed, frontend developer (HTML & CSS). Small projects, skills and contact info.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ===== Navbar ===== -->
+    <nav>
+        <div class="nav-container">
+            <a href="#home" class="logo">
+                Mahmoud<span>Sayed</span>
+            </a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+        <!-- ===== Hero / Home ===== -->
+        <section id="home" class="hero" aria-labelledby="hero-heading">
+            <div class="hero-content">
+                <p class="hero-label">Hi, I'm</p>
+                <h1 id="hero-heading" class="hero-name">Mahmoud</h1>
+                <h2 class="hero-title">Frontend Developer (HTML &amp; CSS)</h2>
+
+                <p class="hero-text">
+                    Egyptian student living and studying Computer Science in Russia.
+                    I build simple and clean web pages, and I'm learning new skills every day.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn primary">View Projects</a>
+                    <a href="#contact" class="btn secondary">Contact Me</a>
+                </div>
+            </div>
+
+            <div class="hero-image">
+                <!-- غيّر اسم الصورة لو مختلف -->
+                <img src="profile.jpg" alt="Photo of Mahmoud Sayed">
+            </div>
+        </section>
+
+        <!-- ===== Skills ===== -->
+        <section id="skills" class="section" aria-labelledby="skills-heading">
+            <div class="section-header">
+                <h2 id="skills-heading">Skills</h2>
+                <p>Technologies I'm currently using and learning.</p>
+            </div>
+
+            <div class="cards-grid">
+                <article class="card">
+                    <h3>HTML</h3>
+                    <p>Building clean and semantic page structure.</p>
+                </article>
+
+                <article class="card">
+                    <h3>CSS</h3>
+                    <p>Styling layouts, colors, spacing and responsive design.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Responsive Design</h3>
+                    <p>Making pages look good on mobile, tablet and desktop.</p>
+                </article>
+
+                <article class="card">
+                    <h3>Git &amp; GitHub</h3>
+                    <p>Basic version control and publishing projects online.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== Projects ===== -->
+        <section id="projects" class="section section-alt" aria-labelledby="projects-heading">
+            <div class="section-header">
+                <h2 id="projects-heading">Projects</h2>
+                <p>Small projects I'm working on to practice frontend skills.</p>
+            </div>
+
+            <div class="cards-grid">
+                <article class="card">
+                    <h3>Finance Manager</h3>
+                    <p>
+                        Simple web interface for managing personal finances:
+                        login page, dashboard, operations list and statistics.
+                    </p>
+                    <a href="https://mohamedms-max.github.io/finance-manager" target="_blank" rel="noopener noreferrer"
+                        class="card-link">
+                        View live demo
+                    </a>
+                    <a href="https://github.com/mohamedms-max/finance-manager" target="_blank" rel="noopener noreferrer"
+                        class="card-link">
+                        View source on GitHub
+                    </a>
+                </article>
+
+                <article class="card">
+                    <h3>Portfolio Website</h3>
+                    <p>
+                        This website itself – built with only HTML &amp; CSS
+                        and hosted on GitHub Pages.
+                    </p>
+                </article>
+            </div>
+        </section>
+
+        <!-- ===== Contact ===== -->
+        <section id="contact" class="section" aria-labelledby="contact-heading">
+            <div class="section-header">
+                <h2 id="contact-heading">Contact</h2>
+                <p>You can reach me by email or WhatsApp.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <h3>Email</h3>
+                    <p>
+                        <a href="mailto:mohamedms.codes@gmail.com">
+                            mohamedms.codes@gmail.com
+                        </a>
+                    </p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>WhatsApp</h3>
+                    <p>
+                        <a href="https://wa.me/79870695612" target="_blank" rel="noopener noreferrer">
+                            +7 987 069 5612
+                        </a>
+                    </p>
+                </div>
+
+                <div class="contact-item">
+                    <h3>GitHub</h3>
+                    <p>
+                        <a href="https://github.com/mohamedms-max" target="_blank" rel="noopener noreferrer">
+                            github.com/mohamedms-max
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+        <p>© 2025 Mahmoud Sayed. Built with HTML &amp; CSS.</p>
+    </footer>
+
+</body>
+
+</html>
